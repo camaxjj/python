@@ -1,7 +1,7 @@
 # python期末项目
 
-* [代码GithubURL](https://github.com/camaxjj/python)
-* [pythonanywhereURL](http://xjiajian.pythonanywhere.com)
+* 代码GithubURL：[https://github.com/camaxjj/python](https://github.com/camaxjj/python)
+* pythonanywhereURL：[http://xjiajian.pythonanywhere.com](http://xjiajian.pythonanywhere.com)
 
 ## html档描述
 1. 网站一共有5个url，分别为：
