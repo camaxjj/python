@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title%}各工作经验时长职位数量占总数量的百分比{% endblock %}
+{% block main %}
+    <h2>各工作经验时长职位数量占总数量的百分比</h2>
+{{ the_pie_rosetype|safe }}
+    <a href="/pie_rosetype/" download="pie_rosetype">点击下载</a>
+    <p><font size="4" face="arial" color="black">可以看出工作经验要求【不限】的占比最高，达33.95%，因此可以初步推断Python相关岗位，只要你技术过硬能够胜任工作，并没有工作经验方面的硬性要求。</font></p>
+    <p><font size="4" face="arial" color="black">我们都知道Python技术的提高需要大量的项目和实操练习，所以如图所示，【1-3年】和【3-5】年的占比也是相当高的，加起来占比近58%</font></p>
+    <p><font size="4" face="arial" color="black">因此可以看出，大部分公司在招聘Python相关人才的时候非常注重应试者的工作经验。</font></p>
+{% endblock %}

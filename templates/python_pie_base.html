@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title%}各学历职位数量占总数量的百分比{% endblock %}
+{% block main %}
+    <h2>各学历职位数量占总数量的百分比</h2>
+{{ the_pie_base|safe }}
+    <a href="/pie_base/" download="pie_base">点击下载</a>
+    <p><font size="4" face="arial" color="black">可见【本科】独占鳌头，占据了超过50%的市场。</font></p>
+    <p><font size="4" face="arial" color="black">【不限】和【大专】也合计占比近38%不容小觑！看起来，只要技术过硬，学历不是大问题。</font></p>
+    <p><font size="4" face="arial" color="black">作为对比【硕士】占比6.28%，【博士】更是少到只有0.49%，果然稀缺到百里挑一，看得出【博士】学历的人才非常珍贵。</font></p>
+    <p><font size="4" face="arial" color="black">对比【最低学历-工作经验与平均月薪】可知，在python技术过硬的同等条件下，【硕士】和【博士】稀缺人才比起本科及以下学历的人才工资是成倍的。</font></p>
+{% endblock %}
